@@ -1,0 +1,23 @@
+<form id="transaction-form">
+    <label for="amount">Amount:</label>
+      <input type="number" id="amount" name="amount" required>
+        <label for="date">Date:</label>label>
+          <input type="date" id="date" name="date" required>
+            <label for="type">Type:</label>
+              <select id="type" name="type" required>
+                      <option value="credit">Credit</option>
+                          <option value="debit">Debit</option>
+              </select>
+                <button type="submit">Submit</button>button>
+          </form>
+          <table id="transactions-table">
+                <!-- Table headers and data rows will be populated via JavaScript -->
+          </table>
+      <script>
+        document.getElementById('transaction-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                    // AJAX call to Spring Boot API to create a new transaction
+                      });
+                      </script>
+                      
+        })-->
